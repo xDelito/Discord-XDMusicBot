@@ -29,11 +29,11 @@ module.exports = {
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
-    id: "lavate", //- Used for indentifier. You can set this to whatever you want.
-    host: "https://lavate.herokuapp.com/", //- The host name or IP of the lavalink server.
-    port: 433, // The port that lavalink is listening to. This must be a number!
-    pass: "XDbruh", //- The password of the lavalink server.
-    secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
+    id: "lavateputo", //- Used for indentifier. You can set this to whatever you want.
+    host: "https://lavateputo.herokuapp.com/", //- The host name or IP of the lavalink server.
+    port: 80, // The port that lavalink is listening to. This must be a number!
+    pass: "XDBruh", //- The password of the lavalink server.
+    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
   },
