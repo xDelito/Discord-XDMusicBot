@@ -3,7 +3,7 @@ module.exports = {
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
+  SupportServer: "https://discord.gg/security", // Support Server Link
   Token: process.env.Token || "", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", // Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
@@ -29,11 +29,11 @@ module.exports = {
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
-    id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "", //- The password of the lavalink server.
-    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
+    id: "lavate", //- Used for indentifier. You can set this to whatever you want.
+    host: "https://lavate.herokuapp.com/", //- The host name or IP of the lavalink server.
+    port: 433, // The port that lavalink is listening to. This must be a number!
+    pass: "XDbruh", //- The password of the lavalink server.
+    secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
   },
